@@ -6,7 +6,7 @@
         Angular-HTTP-Services
       </h1>
       <div class="flex gap-6 text-orange-400 text-[20px]">
-        <a href="#" class="hover:text-orange-500">Products</a>
+        <a routerLink="/" routerLinkActive = "active" class="hover:text-orange-500">Products</a>
         <a href="#" class="hover:text-orange-500">
           <i class="fa-solid fa-heart"></i>
         </a>
@@ -28,6 +28,7 @@
     class="bg-slate-600 p-5 flex gap-3 justify-center items-center"
   >
     <i
+    (click) = "handleGithub()"
       class="fa-brands fa-github text-[24px] cursor-pointer hover:text-orange-500"
     ></i>
     <span>shatrukumar47@gmail.com</span>

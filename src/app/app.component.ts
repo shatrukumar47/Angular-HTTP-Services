@@ -14,4 +14,8 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     initFlowbite();
   }
+
+  handleGithub(){
+    window.open("https://github.com/shatrukumar47/Angular-HTTP-Services", "_blank")
+  }
 }
